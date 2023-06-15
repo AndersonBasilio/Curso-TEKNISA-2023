@@ -44,3 +44,8 @@ button:hover{
     text-align: end;
     margin: 2px;
 }
+
+.titulo{
+    color: black;
+    font-size: 30px;
+}
