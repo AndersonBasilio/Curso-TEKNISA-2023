@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    background: rgba(75, 75, 182, 0.603);
+    height: 100vh;
+}
+
+
+.body input{
+    padding: 8px;
+    margin-right: 8px;
+    
+
+}
+
+.body button{
+
+    padding: 8px 16px;
+    background: #102f5e86;
+
+
+}
+
+.footer{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
