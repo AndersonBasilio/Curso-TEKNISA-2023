@@ -1,26 +1,30 @@
 .container{
     text-align: center;
-    background: rgba(75, 75, 182, 0.603);
+    background: linear-gradient(150deg, #0084ffcb, #0c4377e8);
     height: 100vh;
+    font-style: sans-serif;
+    color: black;
 }
 
 
 .body input{
-    padding: 8px;
-    margin-right: 8px;
+    padding: 12px;
+    margin-right: 4px;
     border-radius: 1rem;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.897);
+    
     
 
 }
 
 .body button{
 
-    padding: 8px 16px;
-    background: #102f5e86;
-    font-family: inherit;
+    padding: 12px 14px;
+    background: black;
     color: white;
     border-radius: 1rem;
     cursor: pointer;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.897);
     
 
 
@@ -32,3 +36,8 @@
 }
 
 
+.meunome{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
