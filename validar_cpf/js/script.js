@@ -8,7 +8,7 @@ function validaCPF() {
     }
 
     if (verificarDigitosRepetidos(cpf)) {
-        mostraResultado('CPF não pode conter repetições de dígitos.', 'red');
+        mostraResultado('⚠️CPF não pode conter repetições de dígitos.', 'red');
         return false;
     }
 
@@ -16,9 +16,9 @@ function validaCPF() {
     const digito2 = calculaDigitoVerificador(cpf, 2);
 
     if (digito1 && digito2) {
-        mostraResultado(`👍CPF Válido - ${cpfFormatado}`, 'green');
+        mostraResultado(`👍CPF Válido - ${cpfFormatado}`, 'darkgreen');
     } else {
-        mostraResultado(`CPF Inválido - ${cpfFormatado}`, 'red');
+        mostraResultado(`⚠️CPF Inválido - ${cpfFormatado}`, 'darkred');
     }
 }
 
